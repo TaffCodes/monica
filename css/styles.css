@@ -2909,8 +2909,8 @@ td:last-child {
  * ## testimonials
  * -------------------------------------------------------------------- */
 .s-testimonials {
-	padding-top     : var(--vspace-4);
-	padding-bottom  : var(--vspace-3);
+	padding-top     : 2px;
+	padding-bottom  : 2px;
 	background-color: var(--color-3);
 }
 
@@ -2931,17 +2931,17 @@ td:last-child {
 }
 
 .testimonials {
-	margin-top: var(--vspace-3);
+	margin-top: var(--vspace-2);
 	position  : relative;
 }
 
 .testimonials__slider {
-	padding-bottom: var(--vspace-2_5);
+	padding-bottom: var(--vspace-2);
 }
 
 .testimonials__author {
 	display      : inline-block;
-	min-height   : var(--vspace-2);
+	min-height   : var(--vspace-1_75);
 	margin-bottom: var(--vspace-0_625);
 	padding-left : calc(2.25 * var(--space));
 	position     : relative;
